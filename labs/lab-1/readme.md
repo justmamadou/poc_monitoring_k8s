@@ -2,20 +2,12 @@
 
 #### Install repo
 
-'''
-helm repo add bitnami https://charts.bitnami.com/bitnami
-
-'''
+''' helm repo add bitnami https://charts.bitnami.com/bitnam '''
 
 #### Update repo
 
-'''
-helm repo update
-
-'''
+''' helm repo update '''
 
 #### Deploy
 
-'''
-helm install odoo bitnami/odoo -f values.yaml
-'''
+''' helm install odoo bitnami/odoo -f values.yaml '''
