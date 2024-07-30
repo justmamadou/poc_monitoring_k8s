@@ -1,0 +1,11 @@
+persistence:
+  enabled: false
+
+service:
+  type: NodePort 
+  nodePorts: "30069"
+
+postgresql:
+  enabled: true
+  persistence:
+    enabled: false
